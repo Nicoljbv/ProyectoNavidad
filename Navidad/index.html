@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Navidad</title>
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div id="cuentaRegresiva">
+            <div class="titulo">
+                <h2 id="mensaje">Cuenta Regresiva Navidad</h2>
+            </div>
+            <div class="contenerdor-conteo">
+                <div id ="dia"></div>
+                <div id="hora"></div>
+                <div id="minuto"></div>
+                <div id="segundo"></div>
+            </div>
+            <div class="contenerdor-letra">
+                <div class="letra-dia">D</div>
+                <div class="letra-hora">H</div>
+                <div class="letra-segundo">M</div>
+                <div class="letra-minuto">S</div>
+            </div>
+            <div id="botones">
+               
+                <div id="btn1" onclick="bailaPapaNoel()">Play</div>
+                <div id="btn2" onclick="detentePapaNoel()">Pause</div>
+            </div>
+        </div>
+
+        <div>
+            <div id="baila" class="papanoel"></div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
